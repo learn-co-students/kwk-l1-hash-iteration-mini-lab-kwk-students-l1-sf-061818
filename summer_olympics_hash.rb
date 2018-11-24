@@ -4,7 +4,8 @@ end
 summer_olympics
 
 def add_a_key_value_pair
-summer_olympics.push(Atlanta=>1996)
+add(summer_olympics)
+    summer_olympics.each do |place,year|
 end
 add_a_key_value_pair
 def iterate_through_hash
